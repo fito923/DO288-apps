@@ -14,7 +14,7 @@ echo "---> Installing application source"
 cp -Rf /tmp/src/*.html ./
 
 
-echo "Proudly served by Apache HTTP Server version $HTTPD_VERSION" >> ./info.html
+echo " ---v2 Proudly served by Apache HTTP Server version $HTTPD_VERSION" >> ./info.html
 ######## CUSTOMIZATION ENDS HERE ############
 
 if [ -d ./httpd-cfg ]; then
